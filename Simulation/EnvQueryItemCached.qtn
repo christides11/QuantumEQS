@@ -1,0 +1,7 @@
+struct EnvQueryItemCached
+{
+    FP Score;
+    bool IsValid;
+    list<FP> TestResults;
+    FPVector3 location;
+}

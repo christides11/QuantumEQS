@@ -1,0 +1,6 @@
+enum EnvTestPurpose
+{
+    FilterOnly,
+    ScoreOnly,
+    FilterAndScore
+}

@@ -1,0 +1,8 @@
+{
+  "name": "com.christides.quantum-eqs",
+  "version": "1.0.0",
+  "displayName": "Quantum EQS",
+  "description": "Environment Query System for Quantum.",
+  "unity": "6000.3"
+}
+

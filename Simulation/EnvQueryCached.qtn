@@ -1,0 +1,11 @@
+component EnvQueryCached
+{
+    int stage;
+    Transform3D CenterOfItems;
+    entity_ref querier;
+    entity_ref targetEntity;
+    Transform3D target;
+    asset_ref<Quantum.EQS.EnvironmentQueryAsset> queryAsset;
+    list<EnvQueryItemCached> envQueryItems;
+    list<PhysicsQueryRef> broadphaseQueries;
+}

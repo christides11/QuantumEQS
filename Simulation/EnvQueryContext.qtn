@@ -1,0 +1,6 @@
+enum EnvQueryContext
+{
+    Querier,
+    Item,
+    Target
+}

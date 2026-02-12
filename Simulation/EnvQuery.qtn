@@ -1,0 +1,10 @@
+struct EnvQuery
+{
+    Transform3D CenterOfItems;
+    entity_ref querier;
+    entity_ref targetEntity;
+    Transform3D target;
+    asset_ref<Quantum.EQS.EnvironmentQueryAsset> queryAsset;
+    //list<EnvQueryItem> envQueryItems;
+    //list<EnvQueryItem> envQueryItemsBacking;    
+}
